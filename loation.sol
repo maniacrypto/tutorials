@@ -37,4 +37,4 @@ contract DataLocations {
     function h(uint256[] calldata _arr) external {
         // do something with calldata array
     }
-}
+} 

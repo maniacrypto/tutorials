@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.26;
 
 contract Primitives {
     bool public boo = true;
@@ -18,7 +16,7 @@ contract Primitives {
     int256 public minInt = type(int256).min;
     int256 public maxInt = type(int256).max;
 
-    address public addr = ;
+    address public addr = 0x;
 
    
     bytes1 a = 0xb5; //  [10110101]
@@ -30,3 +28,6 @@ contract Primitives {
     uint256 public defaultUint; // 0
     int256 public defaultInt; // 0
     address public defaultAddr; 
+
+
+}
