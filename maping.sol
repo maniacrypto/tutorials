@@ -9,7 +9,7 @@ contract Mapping  {
 
 	}
 
-		function get(address _add) public return (uint) {
+		function get(address _add) public view returns (uint) {
 		  
 		  return myMapping[_add];
 
