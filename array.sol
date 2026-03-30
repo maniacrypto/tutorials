@@ -16,7 +16,7 @@ contract Array {
         function del(uint256 i) public {
         delete arr[i];
     }
-    function getArray() public returns(uint256[] memory){
+    function getArray() public view returns(uint256[] memory){
         return arr;
     }
 
