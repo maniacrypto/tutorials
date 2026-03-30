@@ -5,7 +5,7 @@ contract Loop {
     function loop(int256 _x) public pure returns (int256){
 
   // while loop
-        uint256 j=0;
+        int256 j=0;
         while (j < 10) {
             //skiping 1 count by continue and break
             if(j == _x){
